@@ -6,5 +6,5 @@ def my_each(arg)
   yield arg[counter]
     counter += 1
   end
-  
+  arg
 end
